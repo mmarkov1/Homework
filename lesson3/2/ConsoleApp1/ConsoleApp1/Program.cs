@@ -18,7 +18,11 @@ namespace ConsoleApp1
                 Console.WriteLine("Введите номер или емейл " + (i + 1) + " контакта");
                 numbook[i, 1] = Console.ReadLine();
             }
+<<<<<<< HEAD
+            for (int i = 0; i < numbook.GetLength(0); i++) // Показ того, что ввели,
+=======
             for (int i = 0; i < numbook.GetLength(0); i++) // Показ того, что ввели
+>>>>>>> refs/remotes/origin/main
             {
                 Console.Write("Контакт " + (i + 1) + ": " + numbook[i, 0] + " : " + numbook[i, 1]);
                 Console.WriteLine();
